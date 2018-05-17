@@ -23,16 +23,6 @@ export const USERS_ATTENDANCES_MOCK: StudentsAttendancesResponse = {
         { id: 13, status: 3 },
         { id: 14, status: 3 },
         { id: 15, status: 3 },
-        { id: 16, status: 4 },
-        { id: 17, status: 4 },
-        { id: 18, status: 4 },
-        { id: 19, status: 4 },
-        { id: 20, status: 4 },
-        { id: 21, status: 1 },
-        { id: 22, status: 0 },
-        { id: 23, status: 0 },
-        { id: 24, status: 0 },
-        { id: 25, status: 0 }
       ]
     },
     {
@@ -55,16 +45,6 @@ export const USERS_ATTENDANCES_MOCK: StudentsAttendancesResponse = {
         { id: 38, status: 0 },
         { id: 39, status: 0 },
         { id: 40, status: 0 },
-        { id: 41, status: 0 },
-        { id: 42, status: 0 },
-        { id: 43, status: 0 },
-        { id: 44, status: 0 },
-        { id: 45, status: 0 },
-        { id: 46, status: 0 },
-        { id: 47, status: 0 },
-        { id: 48, status: 0 },
-        { id: 49, status: 0 },
-        { id: 50, status: 0 }
       ]
     },
     {
@@ -87,16 +67,6 @@ export const USERS_ATTENDANCES_MOCK: StudentsAttendancesResponse = {
         { id: 38, status: 0 },
         { id: 39, status: 0 },
         { id: 40, status: 0 },
-        { id: 41, status: 0 },
-        { id: 42, status: 0 },
-        { id: 43, status: 0 },
-        { id: 44, status: 0 },
-        { id: 45, status: 0 },
-        { id: 46, status: 0 },
-        { id: 47, status: 0 },
-        { id: 48, status: 0 },
-        { id: 49, status: 0 },
-        { id: 50, status: 0 }
       ]
     },
     {
@@ -119,16 +89,6 @@ export const USERS_ATTENDANCES_MOCK: StudentsAttendancesResponse = {
         { id: 38, status: 0 },
         { id: 39, status: 0 },
         { id: 40, status: 0 },
-        { id: 41, status: 0 },
-        { id: 42, status: 0 },
-        { id: 43, status: 0 },
-        { id: 44, status: 0 },
-        { id: 45, status: 0 },
-        { id: 46, status: 0 },
-        { id: 47, status: 0 },
-        { id: 48, status: 0 },
-        { id: 49, status: 0 },
-        { id: 50, status: 0 }
       ]
     },
     {
@@ -151,16 +111,6 @@ export const USERS_ATTENDANCES_MOCK: StudentsAttendancesResponse = {
         { id: 38, status: 0 },
         { id: 39, status: 0 },
         { id: 40, status: 0 },
-        { id: 41, status: 0 },
-        { id: 42, status: 0 },
-        { id: 43, status: 0 },
-        { id: 44, status: 0 },
-        { id: 45, status: 0 },
-        { id: 46, status: 0 },
-        { id: 47, status: 0 },
-        { id: 48, status: 0 },
-        { id: 49, status: 0 },
-        { id: 50, status: 0 }
       ]
     },
     {
@@ -183,16 +133,6 @@ export const USERS_ATTENDANCES_MOCK: StudentsAttendancesResponse = {
         { id: 38, status: 0 },
         { id: 39, status: 0 },
         { id: 40, status: 0 },
-        { id: 41, status: 0 },
-        { id: 42, status: 0 },
-        { id: 43, status: 0 },
-        { id: 44, status: 0 },
-        { id: 45, status: 0 },
-        { id: 46, status: 0 },
-        { id: 47, status: 0 },
-        { id: 48, status: 0 },
-        { id: 49, status: 0 },
-        { id: 50, status: 0 }
       ]
     },
     {
@@ -215,16 +155,6 @@ export const USERS_ATTENDANCES_MOCK: StudentsAttendancesResponse = {
         { id: 38, status: 0 },
         { id: 39, status: 0 },
         { id: 40, status: 0 },
-        { id: 41, status: 0 },
-        { id: 42, status: 0 },
-        { id: 43, status: 0 },
-        { id: 44, status: 0 },
-        { id: 45, status: 0 },
-        { id: 46, status: 0 },
-        { id: 47, status: 0 },
-        { id: 48, status: 0 },
-        { id: 49, status: 0 },
-        { id: 50, status: 0 }
       ]
     },
     {
@@ -247,16 +177,6 @@ export const USERS_ATTENDANCES_MOCK: StudentsAttendancesResponse = {
         { id: 38, status: 0 },
         { id: 39, status: 0 },
         { id: 40, status: 0 },
-        { id: 41, status: 0 },
-        { id: 42, status: 0 },
-        { id: 43, status: 0 },
-        { id: 44, status: 0 },
-        { id: 45, status: 0 },
-        { id: 46, status: 0 },
-        { id: 47, status: 0 },
-        { id: 48, status: 0 },
-        { id: 49, status: 0 },
-        { id: 50, status: 0 }
       ]
     },
     {
@@ -279,16 +199,6 @@ export const USERS_ATTENDANCES_MOCK: StudentsAttendancesResponse = {
         { id: 38, status: 0 },
         { id: 39, status: 0 },
         { id: 40, status: 0 },
-        { id: 41, status: 0 },
-        { id: 42, status: 0 },
-        { id: 43, status: 0 },
-        { id: 44, status: 0 },
-        { id: 45, status: 0 },
-        { id: 46, status: 0 },
-        { id: 47, status: 0 },
-        { id: 48, status: 0 },
-        { id: 49, status: 0 },
-        { id: 50, status: 0 }
       ]
     },
     {
@@ -311,16 +221,6 @@ export const USERS_ATTENDANCES_MOCK: StudentsAttendancesResponse = {
         { id: 38, status: 0 },
         { id: 39, status: 0 },
         { id: 40, status: 0 },
-        { id: 41, status: 0 },
-        { id: 42, status: 0 },
-        { id: 43, status: 0 },
-        { id: 44, status: 0 },
-        { id: 45, status: 0 },
-        { id: 46, status: 0 },
-        { id: 47, status: 0 },
-        { id: 48, status: 0 },
-        { id: 49, status: 0 },
-        { id: 50, status: 0 }
       ]
     },
     {
@@ -343,16 +243,6 @@ export const USERS_ATTENDANCES_MOCK: StudentsAttendancesResponse = {
         { id: 38, status: 0 },
         { id: 39, status: 0 },
         { id: 40, status: 0 },
-        { id: 41, status: 0 },
-        { id: 42, status: 0 },
-        { id: 43, status: 0 },
-        { id: 44, status: 0 },
-        { id: 45, status: 0 },
-        { id: 46, status: 0 },
-        { id: 47, status: 0 },
-        { id: 48, status: 0 },
-        { id: 49, status: 0 },
-        { id: 50, status: 0 }
       ]
     },
     {
@@ -375,22 +265,12 @@ export const USERS_ATTENDANCES_MOCK: StudentsAttendancesResponse = {
         { id: 38, status: 0 },
         { id: 39, status: 0 },
         { id: 40, status: 0 },
-        { id: 41, status: 0 },
-        { id: 42, status: 0 },
-        { id: 43, status: 0 },
-        { id: 44, status: 0 },
-        { id: 45, status: 0 },
-        { id: 46, status: 0 },
-        { id: 47, status: 0 },
-        { id: 48, status: 0 },
-        { id: 49, status: 0 },
-        { id: 50, status: 0 }
       ]
     },
     {
       id: 2,
       studentNumber: "0K01002",
-      name: "池拓海",
+      name: "トラン・アン・ティエエエエaaaaaaaaaaaaaaaaン",
       attendances: [
         { id: 26, status: 0 },
         { id: 27, status: 0 },
@@ -407,80 +287,6 @@ export const USERS_ATTENDANCES_MOCK: StudentsAttendancesResponse = {
         { id: 38, status: 0 },
         { id: 39, status: 0 },
         { id: 40, status: 0 },
-        { id: 41, status: 0 },
-        { id: 42, status: 0 },
-        { id: 43, status: 0 },
-        { id: 44, status: 0 },
-        { id: 45, status: 0 },
-        { id: 46, status: 0 },
-        { id: 47, status: 0 },
-        { id: 48, status: 0 },
-        { id: 49, status: 0 },
-        { id: 50, status: 0 }
-      ]
-    },
-    {
-      id: 2,
-      studentNumber: "0K01002",
-      name: "池拓海",
-      attendances: [
-        { id: 26, status: 0 },
-        { id: 27, status: 0 },
-        { id: 28, status: 0 },
-        { id: 29, status: 0 },
-        { id: 30, status: 0 },
-        { id: 31, status: 0 },
-        { id: 32, status: 0 },
-        { id: 33, status: 0 },
-        { id: 34, status: 0 },
-        { id: 35, status: 0 },
-        { id: 36, status: 0 },
-        { id: 37, status: 0 },
-        { id: 38, status: 0 },
-        { id: 39, status: 0 },
-        { id: 40, status: 0 },
-        { id: 41, status: 0 },
-        { id: 42, status: 0 },
-        { id: 43, status: 0 },
-        { id: 44, status: 0 },
-        { id: 45, status: 0 },
-        { id: 46, status: 0 },
-        { id: 47, status: 0 },
-        { id: 48, status: 0 },
-        { id: 49, status: 0 },
-        { id: 50, status: 0 }
-      ]
-    },
-    {
-      id: 2,
-      studentNumber: "0K01002",
-      name: "池拓海",
-      attendances: [
-        { id: 26, status: 0 },
-        { id: 27, status: 0 },
-        { id: 28, status: 0 },
-        { id: 29, status: 0 },
-        { id: 30, status: 0 },
-        { id: 31, status: 0 },
-        { id: 32, status: 0 },
-        { id: 33, status: 0 },
-        { id: 34, status: 0 },
-        { id: 35, status: 0 },
-        { id: 36, status: 0 },
-        { id: 37, status: 0 },
-        { id: 38, status: 0 },
-        { id: 39, status: 0 },
-        { id: 40, status: 0 },
-        { id: 41, status: 0 },
-        { id: 42, status: 0 },
-        { id: 43, status: 0 },
-        { id: 44, status: 0 },
-        { id: 45, status: 0 },
-        { id: 46, status: 0 },
-        { id: 47, status: 0 },
-        { id: 48, status: 0 },
-        { id: 49, status: 0 },
-        { id: 50, status: 0 }
       ]
     }
   ]
