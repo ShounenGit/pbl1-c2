@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NumbersPipe } from './numbers.pipe';
 
 @NgModule({
   imports: [
@@ -11,12 +12,13 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     RouterModule,
     NgbModule
   ],
-  declarations: [],
+  declarations: [NumbersPipe],
   exports: [
     CommonModule,
     FormsModule,
     RouterModule,
-    NgbModule
+    NgbModule,
+    NumbersPipe
   ]
 })
 export class SharedModule {

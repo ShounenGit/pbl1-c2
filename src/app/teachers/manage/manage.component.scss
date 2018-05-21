@@ -1,0 +1,32 @@
+@import "../../../assets/styles/import";
+
+.border-bold-right {
+  border-right: 2px $gray-600 solid;
+}
+
+table {
+  table-layout: fixed;
+  overflow-y: scroll;
+}
+
+td {
+  padding: 0;
+}
+
+tbody>tr:hover {
+  border-bottom: solid 2px $orange;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.name-width {
+  width: 10em;
+}
+
+.number-width {
+  width: 2em;
+}

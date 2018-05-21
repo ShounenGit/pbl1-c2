@@ -1,0 +1,35 @@
+<section class="px-2">
+  <div class="text-center mt-2">
+    <h1>登下校管理</h1>
+    <input type="date"
+           [ngModel]="date | date: 'yyyy-MM-dd'"
+           (ngModelChange)="setDate($event)">
+    <i *ngIf="isUpdating || isLoading" class="fa fa-spinner fa-pulse fa-fw"></i>
+  </div>
+  <table *ngIf="!isLoading" class="table table-bordered mt-2">
+    <thead>
+    <tr class="table-info text-center">
+      <th class="number-width">#</th>
+      <th class="name-width border-bold-right">名前</th>
+      <th *ngFor="let i of periodCount | numbers">{{i + 1}}</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let student of students">
+      <td class="p-2 text-right">{{truncNumber(student.studentNumber)}}</td>
+      <td class="border-bold-right ellipsis p-2">{{student.name}}</td>
+      <td *ngFor="let attendance of student.attendances">
+        <select class="custom-select"
+                [ngClass]="statusStyle(attendance.status)"
+                [ngModel]="attendance.status"
+                (ngModelChange)="updateAttendance(attendance, +$event)"
+                [disabled]="isUpdating">
+          <option *ngFor="let statusName of statusNames;let i=index" [value]="i">
+            {{statusName}}
+          </option>
+        </select>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</section>
