@@ -16,9 +16,10 @@ export class AttendanceService {
 
   readonly statusShortNames = this.statusNames.map(name => name[0]);
 
-  constructor() { }
+  constructor() {
+  }
 
-  getStudents(until = new Date(), limit = 3): Observable<StudentWithAttendances[]> {
+  getStudents(date = new Date()): Observable<StudentWithAttendances[]> {
     // TODO: implements API call to /students/attendances
     return Observable.of(USERS_ATTENDANCES_MOCK).map(res => res.students);
   }
