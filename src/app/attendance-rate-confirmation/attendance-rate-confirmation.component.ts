@@ -8,7 +8,7 @@ import {StudentWithSchoolDays} from '../models/student-with-school-days';
   styleUrls: ['./attendance-rate-confirmation.component.scss']
 })
 export class AttendanceRateConfirmationComponent implements OnInit {
-  studentWithSchoolDays = STUDENT_SCHOOL_DAYS_MOCK;
+  student = STUDENT_SCHOOL_DAYS_MOCK;
   constructor() { }
 
   ngOnInit() {

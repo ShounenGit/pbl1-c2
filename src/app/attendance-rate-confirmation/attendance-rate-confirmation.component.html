@@ -1,4 +1,13 @@
 <h2>出席確認</h2>
-<div *ngFor="let STUDENT_SCHOOL_DAYS_MOCK of studentWithSchoolDays.schoolDays ">
-  {{STUDENT_SCHOOL_DAYS_MOCK.attendances|json}}
-</div>
+{{ student.studentNumber }} {{ student.name }}
+<table>
+
+</table>
+  <div *ngFor="let attendanceDate of student.schoolDays">
+    <div *ngFor="let Attendances of attendanceDate.attendances">
+      <table border="1">
+        <tr><td>日付</td><td>{{ Attendances.id }}</td></tr>
+        <tr><td>{{attendanceDate.date}}</td><td></td></tr>
+      </table>
+
+    </div>
