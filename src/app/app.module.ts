@@ -6,10 +6,12 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { TeachersModule } from './teachers/teachers.module';
+import { AttendanceRateConfirmationComponent } from './attendance-rate-confirmation/attendance-rate-confirmation.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AttendanceRateConfirmationComponent
   ],
   imports: [
     BrowserModule,

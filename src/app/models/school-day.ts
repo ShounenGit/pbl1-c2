@@ -1,6 +1,8 @@
+import {Attendance} from './attendance';
+
 export interface SchoolDay {
   date: string;
-  periodCount: number;
+  attendances?: Attendance[];
 }
 
 // APIのレスポンス - /school_days
