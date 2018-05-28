@@ -1,13 +1,14 @@
-<h2>出席確認</h2>
 {{ student.studentNumber }} {{ student.name }}
-<table>
-
+<table border="1">
+  <tr>
+    <th>日付 \ 時間</th>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+  </tr>
+  <tr *ngFor="let attendanceDate of student.schoolDays"><td>{{attendanceDate.date}}</td>
+    <td *ngFor="let Attendances of attendanceDate.attendances">{{Attendances.status}}</td></tr>
 </table>
-  <div *ngFor="let attendanceDate of student.schoolDays">
-    <div *ngFor="let Attendances of attendanceDate.attendances">
-      <table border="1">
-        <tr><td>日付</td><td>{{ Attendances.id }}</td></tr>
-        <tr><td>{{attendanceDate.date}}</td><td></td></tr>
-      </table>
 
-    </div>
