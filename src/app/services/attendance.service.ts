@@ -37,10 +37,12 @@ export class AttendanceService {
     // return Observable.of(USERS_ATTENDANCES_MOCK).map(res => res.students).delay(1000);
   }
   getMySchoolDays(): Observable<StudentWithSchoolDays> {
-    return Observable.of(STUDENT_SCHOOL_DAYS_MOCK).delay(1000)
+    return Observable.of(STUDENT_SCHOOL_DAYS_MOCK).delay(1000);
   }
 
-  getMyAttendanceRate(): Observable
+  getMyAttendanceRate(): Observable<Numver>{
+    return Observable.of.(0.555).delay(1000);
+  }
 
 
   updateAttendance(id: number, status: number): Observable<Attendance> {
