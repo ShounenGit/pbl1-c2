@@ -6,18 +6,18 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { TeachersModule } from './teachers/teachers.module';
-import { AttendanceRateConfirmationComponent } from './attendance-rate-confirmation/attendance-rate-confirmation.component';
+import { StudentsModule } from './students/students.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AttendanceRateConfirmationComponent
   ],
   imports: [
     BrowserModule,
     CoreModule,
     SharedModule,
     TeachersModule,
+    StudentsModule,
     AppRoutingModule,
   ],
   providers: [],

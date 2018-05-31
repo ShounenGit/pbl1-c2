@@ -60,23 +60,23 @@ export const STUDENT_SCHOOL_DAYS_MOCK: StudentWithSchoolDays = {
       attendances: [
         {
           id: 1,
-          status: 0,
+          status: 3,
         },
         {
           id: 2,
-          status: 0,
+          status: 3,
         },
         {
           id: 3,
-          status: 0,
+          status: 3,
         },
         {
           id: 4,
-          status: 0,
+          status: 3,
         },
         {
           id: 5,
-          status: 0,
+          status: 3,
         }
       ]
     },
@@ -85,23 +85,23 @@ export const STUDENT_SCHOOL_DAYS_MOCK: StudentWithSchoolDays = {
       attendances: [
         {
           id: 1,
-          status: 0,
+          status: 4,
         },
         {
           id: 2,
-          status: 0,
+          status: 4,
         },
         {
           id: 3,
-          status: 0,
+          status: 4,
         },
         {
           id: 4,
-          status: 0,
+          status: 4,
         },
         {
           id: 5,
-          status: 0,
+          status: 4,
         }
       ]
     },
@@ -110,7 +110,7 @@ export const STUDENT_SCHOOL_DAYS_MOCK: StudentWithSchoolDays = {
       attendances: [
         {
           id: 1,
-          status: 0,
+          status: 5,
         },
         {
           id: 2,
